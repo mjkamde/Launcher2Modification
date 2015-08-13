@@ -359,6 +359,8 @@ public final class Launcher extends Activity
         }
 
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "Manoj : Launcher App Started.");
+
         LauncherApplication app = ((LauncherApplication)getApplication());
         mSharedPrefs = getSharedPreferences(LauncherApplication.getSharedPreferencesKey(),
                 Context.MODE_PRIVATE);
@@ -384,7 +386,7 @@ public final class Launcher extends Activity
         checkForLocaleChange();
         setContentView(R.layout.launcher);
         setupViews();
-        showFirstRunWorkspaceCling();
+     //   showFirstRunWorkspaceCling();
 
         registerContentObservers();
 
