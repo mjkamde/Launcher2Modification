@@ -421,7 +421,7 @@ public class AppsCustomizeTabHost extends TabHost implements LauncherTransitiona
             // Dismiss the workspace cling
             l.dismissWorkspaceCling(null);
             // Show the all apps cling (if not already shown)
-            mAppsCustomizePane.showAllAppsCling();
+          //  mAppsCustomizePane.showAllAppsCling();
             // Make sure adjacent pages are loaded (we wait until after the transition to
             // prevent slowing down the animation)
             mAppsCustomizePane.loadAssociatedPages(mAppsCustomizePane.getCurrentPage());
